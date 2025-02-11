@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install --no-cache-dir "fastapi['standard']"
+RUN pip install --no-cache-dir "fastapi[standard]"
 
 EXPOSE 8000
 
